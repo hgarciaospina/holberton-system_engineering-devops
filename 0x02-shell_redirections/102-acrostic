@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(printf "%s\n" $a | grep -Ff - test2  | cut -c 1 |  tr -d "[:space:]")
